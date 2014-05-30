@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BBVApp</string>
+    <string name="glass_voice_trigger">Mi oficina</string>
+    <string name="image">Imagen</string>
+    <string name="quesala">¿En qué sala?</string>
+    <string name="sala">Galileo</string>
+    <string name="quedia">¿Qué día?</string>
+    <string name="quehora">¿A qué hora?</string>
+    <string name="dia">Hoy</string>
+    <string name="hora">9:00</string>
+    <string name="confirma1">Has reservado la sala </string>
+    <string name="confirma2">para las 16:00 de mañana</string>
+    <string name="jugador">Jugador</string>
+    <string name="area">Área</string>
+    <string name="confirma3">Click para confirmar, desliza para cancelar.</string>
+    <string name="confirma4">Click para retar, deslizar para otro jugador.</string>
+    <string name="valorcafe">89%</string>
+</resources>

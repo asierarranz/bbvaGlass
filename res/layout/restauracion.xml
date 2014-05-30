@@ -1,0 +1,75 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/xxx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="0dp"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewUploading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/restauracion" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="232dp" >
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textValorCafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/valorcafe"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#333333"
+            android:textSize="40sp" />
+        
+         <TextView
+            android:id="@+id/textValorRest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout1"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="110dp"
+            android:text="xx%"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#333333"
+            android:textSize="40sp" />
+         
+         <TextView
+            android:id="@+id/textValorRest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/frameLayout1"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="110dp"
+            android:text="xx%"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#333333"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+ </FrameLayout>

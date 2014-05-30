@@ -1,0 +1,69 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/xxx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="0dp"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/padel01" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frameLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp" >
+
+            <TextView
+                android:id="@+id/TextViewDiaPadel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dia"
+                android:textColor="#555555"
+                android:textSize="50sp"
+                app:context=".TestActivity" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp" >
+
+            <TextView
+                android:id="@+id/TextViewQueDiaPadel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/quedia"
+                android:textColor="#222222"
+                android:textColorHint="@color/black"
+                android:textSize="50sp"
+                app:context=".TestActivity" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+ </FrameLayout>
